@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "name": "notification",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "post": {
+      "type": "richtext",
+      "required": false
+    },
+    "admin_users": {
+      "plugin": "admin",
+      "collection": "user"
+    }
+  }
+}
