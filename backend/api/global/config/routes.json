@@ -16,6 +16,8 @@
         "policies": []
       }
     },
+
+
     {
       "method": "DELETE",
       "path": "/global",

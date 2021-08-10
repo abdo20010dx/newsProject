@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/drivers/greet",
+      "handler": "driver.greet",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/drivers/count",
       "handler": "driver.count",
       "config": {

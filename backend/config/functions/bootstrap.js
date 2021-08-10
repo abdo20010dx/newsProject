@@ -210,3 +210,5 @@ module.exports = async () => {
     }
   }
 };
+
+console.log('hello from bootstrap')
